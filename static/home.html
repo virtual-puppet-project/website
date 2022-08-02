@@ -1,19 +1,22 @@
 <!DOCTYPE html>
+<!--meta data-->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <html lang="en">
 
 <!--
 Intentionally simple website
+Definitely not because I'm bad at web design or anything... baka! -Youwin
 
-Definitely not because I'm bad at web design or anything... baka!
+That's why I'm fixing it -omega7379
 -->
 
 <head>
-    <meta charset="utf-8">
-
     <title>Virtual Streamer Software</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <!--tried to dump into external file, did not work, keeping this for now -omega7379-->
     <script type="module">
         import * as THREE from "https://cdn.skypack.dev/three@0.132.0";
 
@@ -160,120 +163,48 @@ Definitely not because I'm bad at web design or anything... baka!
         animate();
 
     </script>
+    
+    <!--the call for the external js file -omega7379-->
+    <!--<script src="vss.js"></script>-->
 
-    <style>
-        #main-body {
-            background-color: black;
-            color: palegreen;
-            width: 50%;
-            margin: 0 auto;
-            font-family: monospace;
-            font-size: 16px;
-            padding: 1%;
-        }
-
-        #content-container {
-            margin: 0 auto;
-            background-color: rgba(255, 255, 240, 0.151);
-            padding: 14px 16px;
-        }
-
-        #canvas-container {
-            display: block;
-            position: absolute;
-            z-index: -1;
-            width: 100%;
-            height: 100%;
-            margin: 0 auto;
-            right: 0%;
-            bottom: 0%;
-        }
-
-        #title {
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        .content {
-            margin: 0 auto;
-        }
-
-        #top-nav {
-            background-color: rgba(55, 61, 3, 0.288);
-        }
-
-        #top-nav ul {
-            overflow: hidden;
-            margin: 0;
-            padding: 0;
-        }
-
-        #top-nav ul li {
-            list-style: none;
-            float: left;
-            text-align: center;
-            width: 25%;
-            background-color: rgba(152, 251, 152, 0.2);
-        }
-
-        #top-nav ul li a {
-            display: block;
-            color: rgb(207, 195, 18);
-            padding: 14px 16px;
-            margin: 5px;
-            text-decoration: none;
-            border-left: 3px solid floralwhite;
-            border-right: 3px solid floralwhite;
-        }
-
-        #top-nav ul li a:hover {
-            color: rgb(207, 195, 18);
-            background-color: rgba(152, 251, 152, 0.4);
-        }
-
-        a {
-            color: rgb(207, 195, 18);
-        }
-
-        a:hover {
-            color: rgb(207, 195, 18);
-        }
-    </style>
+    <!--add in the css file to get all the colouration and styling-->
+    <link id="theme" rel="stylesheet" type="text/css" href="styleGuide.css">
 </head>
 
 <body id="main-body">
     <div id="canvas-container"></div>
 
+    <!--Page Title-->
     <div id="content-container">
         <div id="title">
             <h1>Virtual Streamer Software</h1>
             <h2>Home</h2>
         </div>
 
+        <!--navigation menu-->
         <div id="top-nav">
             <ul>
                 <li>
-                    <a href="home">Home</a>
+                    <a href="home.html">Home</a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/vss-project/vss">Github</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/virtual-puppet-project/vpuppr">Github</a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/6mcdWWBkrr">Discord</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/PeHR6Tjyvn">Discord</a>
                 </li>
                 <li>
-                    <a href="faq">FAQ</a>
+                    <a href="faq.html">FAQ</a>
                 </li>
             </ul>
         </div>
 
+        <!--page-specific details-->
         <div class="content">
-            <p>A renderer for glb and vrm models that supports multiple tracking backends.</p>
+            <p> Virtual Puppet Project (VPupPr)- A renderer for glb and vrm models that supports multiple tracking backends.</p>
 
-            <p>Get the latest release from <a target="_blank" rel="noopener noreferrer"
-                    href="https://github.com/vss-project/vss/releases">Github</a>.</p>
+            <p>Get the latest release from <a target="_blank" rel="noopener noreferrer" href="https://github.com/virtual-puppet-project/vpuppr/releases">Github</a>.</p>
         </div>
     </div>
 </body>
-
 </html>
