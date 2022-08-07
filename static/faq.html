@@ -8,6 +8,7 @@
 
 <head>
     <title>FAQ</title>
+    <link rel="icon" href="tabIcon.png">
 
     <!--and for some reason it doesn't want to work here at all...strange-->
     <script type="module">
@@ -35,8 +36,8 @@
         }
 
         function onMouseMove() {
-            mousePosition.x = -(event.clientX / window.innerWidth) * 2;
-            mousePosition.y = (event.clientY / window.innerHeight) * 2;
+            mousePosition.x = -(event.clientX / window.innerWidth) * 1.0;
+            mousePosition.y = (event.clientY / window.innerHeight) * 1.0;
             mousePosition.z = 1;
         }
 
@@ -173,7 +174,7 @@
         <div id="top-nav">
             <ul>
                 <li>
-                    <a href="home.html">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/virtual-puppet-project/vpuppr">Github</a>

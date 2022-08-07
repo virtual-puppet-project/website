@@ -15,6 +15,7 @@ That's why I'm fixing it -omega7379
 
 <head>
     <title>Virtual Streamer Software</title>
+    <link rel="icon" href="tabIcon.png">
 
     <!--tried to dump into external file, did not work, keeping this for now -omega7379-->
     <script type="module">
@@ -42,8 +43,8 @@ That's why I'm fixing it -omega7379
         }
 
         function onMouseMove() {
-            mousePosition.x = -(event.clientX / window.innerWidth) * 2;
-            mousePosition.y = (event.clientY / window.innerHeight) * 2;
+            mousePosition.x = -(event.clientX / window.innerWidth) * 1.0;
+            mousePosition.y = (event.clientY / window.innerHeight) * 1.0;
             mousePosition.z = 1;
         }
 
@@ -185,7 +186,7 @@ That's why I'm fixing it -omega7379
         <div id="top-nav">
             <ul>
                 <li>
-                    <a href="home.html">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/virtual-puppet-project/vpuppr">Github</a>
