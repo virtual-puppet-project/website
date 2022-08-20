@@ -204,13 +204,46 @@ That's why I'm fixing it -omega7379
         <div class="content">
             <p> Virtual Puppet Project (VPupPr)- A renderer for glb and vrm models that supports multiple tracking backends.</p>
             <p>Get the latest release from <a target="_blank" rel="noopener noreferrer" href="https://github.com/virtual-puppet-project/vpuppr/releases">Github</a>.</p>
-        
+            
+            <!--Instructions-->
+        </br>
+            <h2>Instructions</h2>
+            <p><b>Windows:</b></br>
+                1. Download exe from <a href="https://github.com/virtual-puppet-project/vpuppr/releases">releases</a></br>
+                2. Unzip all files into a directory (do not move any of the files)</br>
+                3. Run the <em>.exe</em> on Windows</br>
+                4. Start the facetracker from within the application</p>
+            <p><b>Linux:</b> Install from flathub-beta via <em>flatpak install vpuppr</em>, stable flathub is under the same name but contains openseeface-gd
+                rather than VPupPr.<!--(insert flathub-beta setup instructions here)--></p>
+            <p>alternatively you can grab the linux variant from the <a href="https://github.com/virtual-puppet-project/vpuppr/releases">releases</a> page directly</br>
+                1. Unzip release file <em>cd vpuppr_0.9.0-alpha_linux/linux</em></br>
+                2. <em>chmod +x vpuppr.x86_64</em></br>
+                3. Continue to <em>cd resources/extensions/open_see_face/OpenSeeFaceFolder/OpenSeeFace</em></br>
+                4. <em> chmod +x facetracker</em></br>
+                5. To run <em>./vpuppr.x86_64</em> | for easy access, add this file to your application menu</p>
+            <p><b>Mac:</b> Pre-compiled binary coming soon, for now clone the project into YouWin's <a href="https://github.com/you-win/godot/releases/tag/3.x-binaries">
+                Godot fork</a> and compile from within Godot</p>
         <!--sample images-->
-            <img src="../resources/mountainForest.png" height="auto" width="900">
-            <img src="../resources/dualmonitor.png" height="auto" width="900">
-            <img src="../resources/Screenshot from 2022-05-27 23-09-58.png" loading="lazy" height="auto" width="900">
             </br>
-
+            <h2>Sample Images</h2>
+            <p>opaque background</p>
+            <img id="img" src="../resources/opaqueBackground.png" alt="opaqueBackground">
+            <p>transparent background</p>
+            <img id="img" src="../resources/transparentBackground.png" alt="transparentBackground">
+            <p>bone settings</p>
+            <img id="img" src="../resources/boning.png" loading="lazy" alt="boningSettings">
+            <p>limb settings</p>
+            <img id="img" src="../resources/modelLimbs.png" loading="lazy" alt="modelLimbsSettings">
+            <p>adjust or switch model</p>
+            <img id="img" src="../resources/modelLoad.png" loading="lazy" alt="modelLoadSettings">
+            <p>featured extensions</p>
+            <img id="img" src="../resources/extensions.png" loading="lazy" alt="extensions">
+            <p>tracking settings</p>
+            <img id="img" src="../resources/tracking.png" loading="lazy" alt="trackSettings">
+            </br>
+            <h2>Demo video from Rogue Ren</h2>
+            <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/7K63acAQj7Q" title="YouTube video player" frameborder="0"
+             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         
         <!--contributors-->
             <p>This project has received lots of help over the course of its build history. Check below to see the official contributors</p>

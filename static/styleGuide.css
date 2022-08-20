@@ -77,8 +77,7 @@ a:hover {
 }
 
 img{
-    padding-bottom: 0.5cm;
-    margin-bottom: 0.5cm;
-    display: block;
-    width: 800;
+    padding-bottom: 0.25cm;
+    margin-bottom: 0.25cm;
+    width: 100%;
 }
