@@ -1,12 +1,11 @@
 //external file created by omega7379, waiting for proper implementation
 import * as THREE from "https://cdn.skypack.dev/three@0.132.0";
 
-const POSITION_MULITPLIER = 30;
 const DISTANCE_FROM_CAMERA = 20;
 
 const PARTICLE_COLOR = "grey";
 
-let renderer, camera, scene, mousePosition, effect;
+let renderer, camera, scene, mousePosition;
 
 let initialPosition = new THREE.Vector3();
 
@@ -23,8 +22,8 @@ function onWindowResize() {
 }
 
 function onMouseMove() {
-    mousePosition.x = -(event.clientX / window.innerWidth) * 2;
-    mousePosition.y = (event.clientY / window.innerHeight) * 2;
+    mousePosition.x = -(event.clientX / window.innerWidth) * 1;
+    mousePosition.y = (event.clientY / window.innerHeight) * 1;
     mousePosition.z = 1;
 }
 
