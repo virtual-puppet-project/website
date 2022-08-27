@@ -1,116 +1,80 @@
 <!DOCTYPE html>
+<!--meta data-->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-
     <title>FAQ</title>
+    <link rel="icon" href="../resources/tabIcon.png">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--add in the css file to get all the colouration and styling-->
+    <link id="theme" rel="stylesheet" type="text/css" href="styleGuide.css">
 
-    <style>
-        #main-body {
-            background-color: black;
-            color: palegreen;
-            width: 50%;
-            margin: 0 auto;
-            font-family: monospace;
-            font-size: 16px;
-            padding: 1%;
-        }
-
-        #content-container {
-            margin: 0 auto;
-            background-color: rgba(255, 255, 240, 0.151);
-            padding: 14px 16px;
-        }
-
-        #canvas-container {
-            display: block;
-            position: absolute;
-            z-index: -1;
-            width: 100%;
-            height: 100%;
-            margin: 0 auto;
-            right: 0%;
-            bottom: 0%;
-        }
-
-        #title {
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        .content {
-            margin: 0 auto;
-        }
-
-        #top-nav {
-            background-color: rgba(55, 61, 3, 0.288);
-        }
-
-        #top-nav ul {
-            overflow: hidden;
-            margin: 0;
-            padding: 0;
-        }
-
-        #top-nav ul li {
-            list-style: none;
-            float: left;
-            text-align: center;
-            width: 25%;
-            background-color: rgba(152, 251, 152, 0.2);
-        }
-
-        #top-nav ul li a {
-            display: block;
-            color: rgb(207, 195, 18);
-            padding: 14px 16px;
-            margin: 5px;
-            text-decoration: none;
-            border-left: 3px solid floralwhite;
-            border-right: 3px solid floralwhite;
-        }
-
-        #top-nav ul li a:hover {
-            color: rgb(207, 195, 18);
-            background-color: rgba(152, 251, 152, 0.4);
-        }
-
-        a {
-            color: rgb(207, 195, 18);
-        }
-
-        a:hover {
-            color: rgb(207, 195, 18);
-        }
-    </style>
+    <!--js animation-->
+    <script type="module" src="vss.js"></script> 
 </head>
 
 <body id="main-body">
+    <div id="canvas-container"></div>
+    <!--Content banner-->
     <div id="content-container">
+        <!--Page title-->
         <div id="title">
             <h1>Virtual Streamer Software</h1>
             <h2>FAQ</h2>
         </div>
+        <!--Navigation menu-->
         <div id="top-nav">
             <ul>
                 <li>
-                    <a href="home">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/vss-project/vss">Github</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/virtual-puppet-project/vpuppr">Github</a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/6mcdWWBkrr">Discord</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/PeHR6Tjyvn">Discord</a>
                 </li>
                 <li>
-                    <a href="faq">FAQ</a>
+                    <a href="faq.html">FAQ</a>
                 </li>
             </ul>
         </div>
+        <!--page specific details-->
+        <div class="content">
+        </br>
+            <h2>OpenSeeFace vs OpenSeeFace-GD vs VPupPr</h2>
+            <p><a href="https://github.com/emilianavt/OpenSeeFace">OpenSeeFace</a> (OSF) is a tracker created and maintained by github user <a href="https://github.com/emilianavt">
+                emilianavt</a> whereas <a href="https://github.com/you-win/openseeface-gd">OpenSeeFace-GD</a> (OSF-GD) is a GUI created by <a href="https://github.com/you-win">YouWin</a>
+                to interact with the OSF tracker. Finally the newly released <a href="https://github.com/virtual-puppet-project/vpuppr">virtual-puppet-project</a> (VPupPr) is a massive
+                rebranding and complete overhaul of OSF-GD and to help eliminate confusion with OSF</p>
+            </br>
+            <h2>I read the documentation and still have no clue</h2>
+            <p>Come join the discord! We can't guarantee help right away but there's a wide variety of windows, linux, and mac users in there.</p>
+            </br>
+            <h2>Will there be an easier way to download VPupPr?</h2>
+            <p>Currently github user <a href="https://github.com/orowith2os">Oro</a> is maintaining an official flatpak that regularly gets updated. You
+                can find them in the community discord too if you have specific questions regarding the flatpak.</p>
+            </br>
+            <h2>What is VPupPr?</h2>
+            <p>VPupPr is an open-source project that animates 3D objects using the glb or vrm file extension. Most notable for using 3D vtube models as its main usage.</p>
+            </br>
+            <h2>What platforms are supported?</h2>
+            <p>Currently VPupPr version 0.9.0 (alpha) is released for windows and linux distributions with plans to port over to mac OSX. If using linux, make sure to
+                install all necessary dependencies using <em>pip</em> within a virtual environment (venv folder). As always, please read documentation fully and join us
+                in discord if you still have questions!</p>
+            </br>
+            <h2>Submitting Issues</h2>
+            <p>You can submit official issues here -> <a href="https://github.com/virtual-puppet-project/vpuppr/issues">VPupPr Issues</a> on the Github repository</p>
+            <p>If you wish to provide feedback in a more unofficial capacity, the community discord is the place to go, or use the appropiate issue tracker for the packaging method.</p>
+            </br>
+            <h2>Building from source</h2>
+            <p>VPupPr runs off a custom version of the Godot engine, you can get the precompiled binaries here -> <a href="https://github.com/you-win/godot/releases/tag/3.x-binaries">Custom Godot Engine</a></p>
+            <p>Instructions can found here on the github <a href="https://github.com/virtual-puppet-project/vpuppr#building-from-source">README.md</a></p>
+        </div>
     </div>
 </body>
-
 </html>
