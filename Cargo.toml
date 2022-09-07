@@ -1,6 +1,6 @@
 [package]
 name = "vss-website"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Timothy Yuen <timothy.yuen22@gmail.com", "Neiro <neirosystem@aol.com>"]
 edition = "2018"
 
