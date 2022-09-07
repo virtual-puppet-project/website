@@ -1,7 +1,7 @@
 /*created by omega7379 to remove all of this from the inline css within the html file*/
 
 /*making it mobile friendly*/
-@media screen and (max-aspect-ratio: 1:1) {
+@media screen and (max-width: 800px) {
     #main-body{
         background-color: black;
         color: palegreen;
@@ -12,10 +12,33 @@
         padding: 1%;
     }
 
+    #title {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .break{
+        word-break: break-all;
+    }
+    
+    .content {
+        margin: 0 auto;
+    }
+
     #content-container {
         margin: 0 auto;
         background-color: #fffff027;
         padding: 14px 16px;
+    }
+
+    #canvas-container {
+        display: block;
+        position: fixed;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        right: 0%;
+        bottom: 0%;
     }
 
     #top-nav {
@@ -26,14 +49,13 @@
         overflow: hidden;
         margin: 0;
         padding: 0;
-        display: block;
     }
-    
+
     #top-nav ul li {
         list-style: none;
         float: left;
         text-align: center;
-        width: 25%;
+        width: 98%;
         background-color: rgba(152, 251, 152, 0.2);
     }
     
@@ -51,7 +73,15 @@
         color: #CFC312;
         background-color: rgba(152, 251, 152, 0.4);
     }
+
+    a {
+        color: #CFC312;
+    }
     
+    a:hover {
+        color: #CFC312;
+    }
+
     img{
         padding-bottom: 0.125cm;
         margin-bottom: 0.125cm;
@@ -59,8 +89,8 @@
     }
 }
 
-/*pc browser friendly*/
-@media screen and (min-width: 301px){
+/*pc browser/default*/
+@media screen and (min-width: 801px){
     #main-body {
         background-color: black;
         color: palegreen;
@@ -143,5 +173,4 @@
         margin-bottom: 0.25cm;
         width: 100%;
     }
-    
 }
