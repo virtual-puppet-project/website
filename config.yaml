@@ -1,0 +1,56 @@
+baseURL: "https://vpup.pro"
+title: Virtual Puppet Project
+theme: PaperMod
+
+minify:
+  disableXML: true
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+    menu:
+      main:
+        - name: About
+          url: about/
+          weight: 5
+        - name: Quickstart
+          url: quickstart/
+          weight: 10
+        - name: Downloads
+          url: downloads/
+          weight: 15
+        - name: Source
+          url: source/
+          weight: 20
+        - name: Search
+          url: search/
+          weight: 25
+
+# Needed for search
+outputs:
+  home:
+    - HTML
+    - JSON
+
+params:
+  description: "Virtual Puppet Project"
+
+  defaultTheme: dark
+
+  socialIcons:
+    - name: GitHub
+      url: "https://github.com/virtual-puppet-project"
+    - name: Discord
+      url: "https://discord.gg/6mcdWWBkrr"
+
+  # https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+  profileMode:
+    enabled: true
+    title: Virtual Puppet Project (vpuppr)
+    subtitle: Free and open source virtual streamer software
+    buttons:
+      - name: About
+        url: "about/"
+      - name: Download
+        url: "download/"
