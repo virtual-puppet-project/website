@@ -9,6 +9,8 @@ tocopen: true
 
 1- A phone (IOS for IFacialMocap) or a webcam (OpenSeeFace)
 
+other hardware/software specs under construction ;)
+
 # Installation
 
 Under construction. Grab something from [downloads]({{< ref "downloads/">}}) :)
@@ -27,18 +29,46 @@ Under construction. Grab something from [downloads]({{< ref "downloads/">}}) :)
 
 ### Flatpak
 
-#### OpenSeeFace-GD (old LTS)
+#### OpenSeeFace-GD (old)
 ```
     $ flatpak install flathub com.github.virtual_puppet_project.vpuppr
 ```
 
+#### VPupPr (Alpha 2)
+```
+    $ flatpak remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
+    $ flatpak install flathub-beta com.github.virtual_puppet_project.vpuppr
+```
+
+Maintainer: [Oro](https://github.com/orowith2os)
+
 ### Package manager
 
-Under construction.
+#### OpenSeeFace-GD (old)
+
+installation for [arch](https://aur.archlinux.org/packages/puppeteer)
+
+~~Other Types Not Provided~~, package managers are made by the community :)
 
 ### Binary
 
-Under construction. Grab something from [downloads]({{< ref "downloads/">}}) :)
+Download the linux [zip file](https://github.com/virtual-puppet-project/vpuppr/releases)
+
+```
+    $ cd Downloads/
+    $ unzip vpuppr_0.9.0-alpha-2_linux.zip
+    $ cd vpuppr_0.9.0-alpha-2_linux/
+    $ chmod +x vpuppr.x86_64
+    $ cd resources/extensions/open_see_face/OpenSeeFaceFolder/OpenSeeFace/
+    $ chmod +x facetracker
+    To run-
+    $ cd vpuppr_0.9.0-alpha-2_linux/
+    $ ./vpuppr.x86_64
+```
+
+## Mac OS/OSX
+
+Sorry, no build provided :( feel free to build from source!
 
 # Running
 
@@ -62,6 +92,12 @@ Under construction.
 
 2- select preset and hit ``load``
 
-## Placeholder
+## Tracking
 
-Nothing to see here :v
+### OpenSeeFace
+
+Runs using your webcam on laptop/pc. Source code provided by [emilianavt](https://github.com/emilianavt/OpenSeeFace)
+
+### IFacialMocap
+
+Uses the 3D tracking capabilities of Apple Inc devices to provide optimal tracking data from your phone.
