@@ -56,4 +56,4 @@ params:
       - name: About
         url: "about/"
       - name: Download
-        url: "download/"
+        url: "downloads/"
