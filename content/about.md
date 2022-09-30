@@ -17,3 +17,7 @@ Check out the people who helped build this!
 [VPupPr](https://github.com/virtual-puppet-project/vpuppr/graphs/contributors)
 
 [website](https://github.com/virtual-puppet-project/virtual-puppet-project-website/graphs/contributors)
+
+## Demo
+
+enjoy a quick demo from a slightly older alpha version by [@ItsRogueRen](https://youtu.be/7K63acAQj7Q)

@@ -1,4 +1,5 @@
 ---
+title: Quickstart
 url: quickstart/
 summary: Getting started with vpuppr
 showToc: true
@@ -7,13 +8,16 @@ tocopen: true
 
 # Prerequisites
 
-1- A phone (IOS for IFacialMocap) or a webcam (OpenSeeFace)
+1- OpenSeeFace tracking: webcam
+
+2- IFacialMocap tracking: iOS device with face ID or A12 (or newer) chip
+
+3- MeowFace tracking: android device that supports ARCore (most modern phones do)
 
 other hardware/software specs under construction ;)
 
 # Installation
 
-Under construction. Grab something from [downloads]({{< ref "downloads/">}}) :)
 
 ## Windows
 
@@ -70,6 +74,8 @@ Download the linux [zip file](https://github.com/virtual-puppet-project/vpuppr/r
 
 Sorry, no build provided :( feel free to build from source!
 
+click here for [instructions!]({{< ref "source/#building-from-source">}})
+
 # Running
 
 ## OBS
@@ -100,4 +106,52 @@ Runs using your webcam on laptop/pc. Source code provided by [emilianavt](https:
 
 ### IFacialMocap
 
-Uses the 3D tracking capabilities of Apple Inc devices to provide optimal tracking data from your phone.
+Uses the 3D tracking capabilities of Apple Inc devices to provide optimal tracking data from your phone. Use if your model has
+perfect sync.
+
+iFacialMocap is an app that captures facial movements with an iPhone equipped with FaceID. This app sends the captured motion in real time to 3DCG software such as Maya, Unity, Blender on PC. -IFM developers
+
+
+### MeowFace
+
+An android version of IFacialMocap. Also supports perfect sync models.
+
+MeowFace is a precision face tracking application that can send 42 ARKit-like blendshapes as well as head rotation tracking to PC VTuber applications. -MF developers
+
+### Vtube Studio
+
+Available for both iOS and Android for face tracking. The PC version uses OpenSeeFace which is already built into VPupPr.
+
+### Mouse Tracking
+
+Not included by default. Follow instructions to add it!
+
+#### Prebuilt release
+
+1- Download latest [release](https://github.com/virtual-puppet-project/mouse-tracker/releases)
+
+2- navigate to ``vpuppr_0.9.0-alpha-2_linux/resources/extensions``
+
+3- Create directory with name ``mouse-tracker`` and unzip the contents into it
+
+4- use the tracker in the app!
+
+#### Manual Build
+
+1- Navigate to ``vpuppr_0.9.0-alpha-2_linux/resources/extensions``
+
+2- Create directory ``mouse-tracker``
+
+3- Copy the following files from this [repo](https://github.com/virtual-puppet-project/mouse-tracker)
+
+   * ./lib/
+    
+   * ./translations/
+    
+   * mouse_tracker.gd
+    
+   * gui.gd
+    
+   * config.ini
+
+4. Use the tracker in the app!

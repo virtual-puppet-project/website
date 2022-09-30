@@ -2,6 +2,8 @@
 title: Source
 url: source/
 summary: Source for the Virtual Puppet Project
+showToc: true
+tocopen: true
 ---
 
 ## Applications
