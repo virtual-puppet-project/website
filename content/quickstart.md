@@ -61,7 +61,7 @@ Distribution specific packages are built and maintained by the community :)
 
 ### Binary
 
-Download the linux [zip file](https://github.com/virtual-puppet-project/vpuppr/releases)
+Download the Linux [zip file](https://github.com/virtual-puppet-project/vpuppr/releases)
 
 Terminal:
 

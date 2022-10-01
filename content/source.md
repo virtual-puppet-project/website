@@ -16,4 +16,4 @@ summary: Source for the Virtual Puppet Project
 
 ## Building from Source
 
-(Instructions](https://github.com/virtual-puppet-project/vpuppr#building-from-source) here!
+[Instructions](https://github.com/virtual-puppet-project/vpuppr#building-from-source) here!
