@@ -20,7 +20,7 @@ tocopen: true
 
 ## Windows
 
-1. Download windows [zip file](https://github.com/virtual-puppet-project/vpuppr/releases)
+1. Download windows [zip file](https://github.com/virtual-puppet-project/vpuppr/releases/download/0.9.0-alpha-2/vpuppr_0.9.0-alpha-2_windows.zip)
 
 2. Unzip files into a directory, (do not move files!)
 
@@ -61,7 +61,7 @@ Distribution specific packages are built and maintained by the community :)
 
 ### Binary
 
-Download the Linux [zip file](https://github.com/virtual-puppet-project/vpuppr/releases)
+Download the Linux [zip file](https://github.com/virtual-puppet-project/vpuppr/releases/download/0.9.0-alpha-2/vpuppr_0.9.0-alpha-2_linux.zip)
 
 Terminal:
 
