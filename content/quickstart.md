@@ -8,36 +8,42 @@ tocopen: true
 
 # Prerequisites
 
-1- OpenSeeFace tracking: webcam
+1. OpenSeeFace tracking: webcam
 
-2- IFacialMocap tracking: iOS device with face ID or A12 (or newer) chip
+2. IFacialMocap tracking: iOS device with face ID (IPhone X or newer)
 
-3- MeowFace tracking: android device that supports ARCore (most modern phones do)
+3. MeowFace tracking: Android device that supports ARCore (most modern phones do)
 
-4- 64-bit Operating system with x86 architecture
+4. Mainstream 64-bit operating system
 
 # Installation
 
 ## Windows
 
-1- download windows [zip file](https://github.com/virtual-puppet-project/vpuppr/releases)
+1. Download windows [zip file](https://github.com/virtual-puppet-project/vpuppr/releases)
 
-2- unzip files into a directory, (do not move files!)
+2. Unzip files into a directory, (do not move files!)
 
-3- run the ``.exe`` on windows
+3. Run the `.exe` on windows
 
-4- start the facetracker from within the app!
+4. Start the facetracker from within the app!
 
 ## Linux
 
 ### Flatpak
 
 #### OpenSeeFace-GD (old)
+
+Terminal:
+
 ```
     $ flatpak install flathub com.github.virtual_puppet_project.vpuppr
 ```
 
 #### VPupPr (Alpha 2)
+
+Terminal:
+
 ```
     $ flatpak remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
     $ flatpak install flathub-beta com.github.virtual_puppet_project.vpuppr
@@ -49,13 +55,15 @@ Maintainer: [Oro](https://github.com/orowith2os)
 
 #### OpenSeeFace-GD (old)
 
-installation for [arch](https://aur.archlinux.org/packages/puppeteer)
+Installation for [Arch Linux](https://aur.archlinux.org/packages/puppeteer)
 
-~~Other Types Not Provided~~, package managers are made by the community :)
+Distribution specific packages are built and maintained by the community :)
 
 ### Binary
 
 Download the linux [zip file](https://github.com/virtual-puppet-project/vpuppr/releases)
+
+Terminal:
 
 ```
     $ cd Downloads/
@@ -64,7 +72,11 @@ Download the linux [zip file](https://github.com/virtual-puppet-project/vpuppr/r
     $ chmod +x vpuppr.x86_64
     $ cd resources/extensions/open_see_face/OpenSeeFaceFolder/OpenSeeFace/
     $ chmod +x facetracker
-    To run-
+```
+
+To run:
+
+```
     $ cd vpuppr_0.9.0-alpha-2_linux/
     $ ./vpuppr.x86_64
 ```
@@ -73,7 +85,7 @@ Download the linux [zip file](https://github.com/virtual-puppet-project/vpuppr/r
 
 Sorry, no build provided :( feel free to build from source!
 
-click here for [instructions!]({{< ref "source/#building-from-source">}})
+Click here for [instructions!](https://github.com/virtual-puppet-project/vpuppr#building-from-source)
 
 # Running
 
@@ -85,17 +97,17 @@ Under construction.
 
 #### First time
 
-1- open the ``model`` menu
+1. Open the `model` menu
 
-2- load model
+2. Load model
 
-3- open ``.vrm`` file
+3. Open `.vrm` file
 
 #### Loading a used model
 
-1- open ``preset`` menu
+1. Open `preset` menu
 
-2- select preset and hit ``load``
+2. Select preset and hit `load`
 
 ## Tracking
 
@@ -103,19 +115,20 @@ Under construction.
 
 Runs using your webcam on laptop/pc. Source code provided by [emilianavt](https://github.com/emilianavt/OpenSeeFace)
 
-### IFacialMocap
+### iFacialMocap
 
-Uses the 3D tracking capabilities of Apple Inc devices to provide optimal tracking data from your phone. Use if your model has
-perfect sync.
+Uses the 3D tracking capabilities of Apple Inc. devices to provide optimal tracking data from your phone. Use this if your model has
+Perfect Sync.
 
-iFacialMocap is an app that captures facial movements with an iPhone equipped with FaceID. This app sends the captured motion in real time to 3DCG software such as Maya, Unity, Blender on PC. -IFM developers
+"iFacialMocap is an app that captures facial movements with an iPhone equipped with FaceID. This app sends the captured motion in real time to 3DCG software such as Maya, Unity, Blender on PC." -iFacialMocap developers
 
 
 ### MeowFace
 
-An android version of IFacialMocap. Also supports perfect sync models.
+An Android version of iFacialMocap. Also supports Perfect Sync models.
 
-MeowFace is a precision face tracking application that can send 42 ARKit-like blendshapes as well as head rotation tracking to PC VTuber applications. -MF developers
+"MeowFace is a precision face tracking application that can send 42 ARKit-like blendshapes as well as head rotation tracking to PC VTuber applications."
+-MeowFace developers
 
 ### Vtube Studio
 
@@ -123,34 +136,4 @@ Available for both iOS and Android for face tracking. The PC version uses OpenSe
 
 ### Mouse Tracking
 
-Not included by default. Follow instructions to add it!
-
-#### Prebuilt release
-
-1- Download latest [release](https://github.com/virtual-puppet-project/mouse-tracker/releases)
-
-2- navigate to ``vpuppr_0.9.0-alpha-2_linux/resources/extensions``
-
-3- Create directory with name ``mouse-tracker`` and unzip the contents into it
-
-4- use the tracker in the app!
-
-#### Manual Build
-
-1- Navigate to ``vpuppr_0.9.0-alpha-2_linux/resources/extensions``
-
-2- Create directory ``mouse-tracker``
-
-3- Copy the following files from this [repo](https://github.com/virtual-puppet-project/mouse-tracker)
-
-   * ./lib/
-    
-   * ./translations/
-    
-   * mouse_tracker.gd
-    
-   * gui.gd
-    
-   * config.ini
-
-4. Use the tracker in the app!
+Not included by default. Follow [instructions](https://github.com/virtual-puppet-project/mouse-tracker) to add it!
