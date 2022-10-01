@@ -14,10 +14,9 @@ tocopen: true
 
 3- MeowFace tracking: android device that supports ARCore (most modern phones do)
 
-other hardware/software specs under construction ;)
+4- 64-bit Operating system with x86 architecture
 
 # Installation
-
 
 ## Windows
 

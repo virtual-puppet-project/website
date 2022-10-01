@@ -6,7 +6,7 @@ summary: Downloads for the Virtual Puppet Project
 
 ## GitHub
 
-[Stable release - 0.9.0-alpha-2](https://github.com/virtual-puppet-project/vpuppr/releases)
+[Stable releases - all versions](https://github.com/virtual-puppet-project/vpuppr/releases)
 
 ~~Nightly release~~ Not yet provided
 
@@ -15,3 +15,4 @@ summary: Downloads for the Virtual Puppet Project
 ~~Stable release~~ Not yet provided
 
 ~~Nightly release~~ Not yet provided
+
