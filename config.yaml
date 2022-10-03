@@ -23,6 +23,9 @@ languages:
         - name: Source
           url: source/
           weight: 20
+        - name: FAQ
+          url: FAQ/
+          weight: 22
         - name: Search
           url: search/
           weight: 25
@@ -53,4 +56,4 @@ params:
       - name: About
         url: "about/"
       - name: Download
-        url: "download/"
+        url: "downloads/"

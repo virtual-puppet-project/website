@@ -13,3 +13,7 @@ summary: Source for the Virtual Puppet Project
 ## GitHub Organization
 
 [Virtual Puppet Project](https://github.com/virtual-puppet-project)
+
+## Building from Source
+
+[Instructions](https://github.com/virtual-puppet-project/vpuppr#building-from-source) here!
