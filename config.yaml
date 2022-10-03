@@ -24,11 +24,11 @@ languages:
           url: source/
           weight: 20
         - name: FAQ
-          url: FAQ/
-          weight: 22
+          url: faq/
+          weight: 25
         - name: Search
           url: search/
-          weight: 25
+          weight: 30
 
 # Needed for search
 outputs:
@@ -37,7 +37,7 @@ outputs:
     - JSON
 
 params:
-  description: "Virtual Puppet Project"
+  description: Virtual Puppet Project
 
   defaultTheme: dark
 
@@ -54,6 +54,6 @@ params:
     subtitle: Free and open source virtual streamer software
     buttons:
       - name: About
-        url: "about/"
+        url: about/
       - name: Download
-        url: "downloads/"
+        url: downloads/

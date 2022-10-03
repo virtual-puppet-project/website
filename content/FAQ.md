@@ -1,6 +1,6 @@
 ---
 title: Frequently Asked Questions
-url: FAQ/
+url: faq/
 summary: Frequently asked questions
 showToc: true
 tocopen: true
@@ -8,39 +8,38 @@ tocopen: true
 
 ## I read the docs but still need help!
 
-Come join the [discord](https://discord.gg/PeHR6Tjyvn)! Let the community help you in real-time!
+Come join the [Discord](https://discord.gg/PeHR6Tjyvn)! The community can help you in real-time!
 
-## What is VPupPr
+## What is vpuppr?
 
-VPupPr is an open-source project that animates models using the `glb` and `vrm` file extension. 
-it is most notable for tracking and rendering 3D Vtube models.
+vpuppr is an open-source project that animates models using the `glb` and `vrm` file formats.
+It is most notable for tracking and rendering 3D Vtuber models.
 
-## Platform supported
+## What are the supported platforms?
 
-Currently supported on Windows and common Linux distributions. OSX is not currently supported, however,
-feel free to fork the github [repo](https://github.com/virtual-puppet-project/vpuppr)!
+vpuppr is currently supported on Windows and most common Linux distributions. OSX is not currently supported, however
+packaging vpuppr should be doable by following the
+[official Godot instructions](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_macos.html).
 
-## Submitting issues
+## How do I report an issue?
 
-[Click here](https://github.com/virtual-puppet-project/vpuppr/issues) to submit issues. Be sure to include
-operating system, app version, logs, and any other information related to the bug.
+Issues should be submitted on [GitHub](https://github.com/virtual-puppet-project/vpuppr/issues). Be sure to include
+your operating system, app version, logs, and any other related information.
 
-## Building from source
+## How do I build from source?
 
-VPupPr runs off a custom build off the Godot engine. Get a pre-compiled build of engine [here](https://github.com/you-win/godot/releases).
-You can find the instructions [here]({{< ref "source/#building-from-source">}}).
+vpuppr runs off a custom build of the Godot engine. Get a pre-compiled build of the engine [here](https://github.com/you-win/godot/releases). After that, follow the official vpuppr instructions [here](https://github.com/virtual-puppet-project/vpuppr#building-from-source).
 
-## Tracking is not responding
+## Why is tracking is not responding?
 
-Please note it might take a second for the tracking to activate. It _is_ trying to map your face! Also check that
-your face is well lit, usually having a lamp above your desk is enough. If it's still not working, submit an issue
+Please note it might take a second for tracking to activate. It _is_ trying to track your face! Also check that
+your face is well lit. Usually having a lamp above your desk is enough. If it's still not working, submit an issue
 and/or ask the Discord community!
 
-## Why is mouse-tracking not included by default
+## Why is mouse tracking not included by default?
 
-Simply put, it's a very niche thing and not a lot of people will be using it. If enough people ask about it, it might be
-considered later.
+Simply put, it's a very niche use-case and is less preferable to real face tracking.
 
-## What engine is VPupPr using
+## What engine is vpuppr using?
 
-Currently VPupPr runs on Godot 3.x with plans to port over to 4.x once the beta becomes more stable.
+Currently vpuppr runs on Godot 3.x with plans to port over to 4.x once Godot 4 becomes more stable.

@@ -6,7 +6,7 @@ summary: About the Virtual Puppet Project
 
 Virtual Puppet Project, often shortened to vpuppr, aims to be an accessible, open-source tool for VTubers!
 
-Having issues with the program? Submit an issue [here](https://github.com/virtual-puppet-project/vpuppr/issues)!
+Found a problem with the program? Submit an [issue on GitHub](https://github.com/virtual-puppet-project/vpuppr/issues)!
 
 Feel free to join the [Discord](https://discord.gg/PeHR6Tjyvn) community to share your thoughts or help collaborate!
 
@@ -14,10 +14,10 @@ Feel free to join the [Discord](https://discord.gg/PeHR6Tjyvn) community to shar
 
 Check out the people who helped build this!
 
-[VPupPr](https://github.com/virtual-puppet-project/vpuppr/graphs/contributors)
+[vpuppr](https://github.com/virtual-puppet-project/vpuppr/graphs/contributors)
 
 [website](https://github.com/virtual-puppet-project/virtual-puppet-project-website/graphs/contributors)
 
 ## Demo
 
-Enjoy a quick demo from a slightly older alpha version by [@ItsRogueRen](https://youtu.be/7K63acAQj7Q).
+Here's a quick demo from a slightly older alpha version by [ItsRogueRen](https://youtu.be/7K63acAQj7Q).
