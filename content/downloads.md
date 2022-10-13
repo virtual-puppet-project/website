@@ -8,7 +8,7 @@ summary: Downloads for the Virtual Puppet Project
 
 [Stable releases - all versions](https://github.com/virtual-puppet-project/vpuppr/releases)
 
-[Nightly release - 0.9.0](https://github.com/virtual-puppet-project/vpuppr/actions/runs/3239018638)
+[Nightly releases](https://github.com/virtual-puppet-project/vpuppr/actions/workflows/nightly-release.yml)
 
 ## Itch.io
 
