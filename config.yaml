@@ -60,6 +60,9 @@ params:
       - name: Download
         url: downloads/
     slideshow:
+    # title: Gallery
       images:
+        
         - "vpuppr_icon_256.png"
         - "vpuppr_ducks_bg.png"
+        
