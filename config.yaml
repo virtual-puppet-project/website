@@ -52,8 +52,14 @@ params:
     enabled: true
     title: Virtual Puppet Project (vpuppr)
     subtitle: Free and open source virtual streamer software
+    imageUrl: "vpuppr_icon_256.png"
+    cover: "vpuppr_ducks_bg.png"
     buttons:
       - name: About
         url: about/
       - name: Download
         url: downloads/
+    slideshow:
+      images:
+        - "vpuppr_icon_256.png"
+        - "vpuppr_ducks_bg.png"

@@ -6,9 +6,9 @@ Website features extra documentation and help for the [Virtual Puppet Project (v
 
 ## First time setup
 
-1. Clone the repo using `git clone --recurse-submodules git@github.com:virtual-puppet-project/website.git`
-2. Make sure hugo is installed on your system
-3. Run hugo server -D in the repo root
-4. Go to localhost:1313 
+1. Clone the repo using `git clone --recurse-submodules https://github.com/virtual-puppet-project/hugo-PaperMod.git`
+2. Make sure [hugo](https://gohugo.io/) is installed on your system
+3. Run `hugo server -D` in the repo root
+4. Go to localhost:1313
 
 To run anytime after, just repeat steps 3 and 4!
