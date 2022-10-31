@@ -61,8 +61,10 @@ params:
         url: downloads/
     slideshow:
     # title: Gallery
-      images:
-        
-        - "vpuppr_icon_256.png"
+      images: 
         - "vpuppr_ducks_bg.png"
-        
+        - "vpuppr_main_screen.png"
+        - "vpuppr_preset_menu.png"
+        - "vpuppr_model_menu.png"
+        - "vpuppr_bone_menu.png"
+        - "vpuppr_tracking_menu.png"
