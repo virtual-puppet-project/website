@@ -24,7 +24,7 @@ tocopen: true
 
 ### Flatpak
 
-#### OpenSeeFace-GD (old)
+#### OpenSeeFace-GD (deprecated, do not use)
 
 Terminal:
 
