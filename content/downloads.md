@@ -18,6 +18,6 @@ summary: Downloads for the Virtual Puppet Project
 
 ## Direct downloads
 
-[vpuppr_0.9.0-alpha-2_linux.zip](https://github.com/virtual-puppet-project/vpuppr/releases/download/0.9.0-alpha-2/vpuppr_0.9.0-alpha-2_linux.zip)
+[vpuppr_0.9.0_linux.zip](https://github.com/virtual-puppet-project/vpuppr/releases/download/0.9.0/vpuppr_0.9.0-_linux.zip)
 
-[vpuppr_0.9.0-alpha-2_windows.zip](https://github.com/virtual-puppet-project/vpuppr/releases/download/0.9.0-alpha-2/vpuppr_0.9.0-alpha-2_windows.zip)
+[vpuppr_0.9.0_windows.zip](https://github.com/virtual-puppet-project/vpuppr/releases/download/0.9.0/vpuppr_0.9.0_windows.zip)

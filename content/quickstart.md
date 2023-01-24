@@ -24,7 +24,7 @@ tocopen: true
 
 ### Flatpak
 
-#### OpenSeeFace-GD (deprecated, do not use)
+#### OpenSeeFace-GD (Deprecated, Do Not Use)
 
 Terminal:
 
@@ -45,7 +45,7 @@ Maintainer: [Oro](https://github.com/orowith2os)
 
 ### Package manager
 
-#### OpenSeeFace-GD (old)
+#### OpenSeeFace-GD (Deprecated, Do Not Use)
 
 Installation for [Arch Linux](https://aur.archlinux.org/packages/puppeteer)
 
@@ -59,17 +59,17 @@ Terminal:
 
 ```Bash
     $ cd Downloads/
-    $ unzip vpuppr_0.9.0-alpha-2_linux.zip
-    $ cd vpuppr_0.9.0-alpha-2_linux/
+    $ unzip vpuppr_0.9.0_linux.zip
+    $ cd vpuppr_0.9.0_linux/flatpak
     $ chmod +x vpuppr.x86_64
-    $ cd resources/extensions/open_see_face/OpenSeeFaceFolder/OpenSeeFace/
+    $ cd resources/extensions/openseeface-tracker/OpenSeeFace/
     $ chmod +x facetracker
 ```
 
 To run:
 
 ```Bash
-    $ cd vpuppr_0.9.0-alpha-2_linux/
+    $ cd vpuppr_0.9.0_linux/flatpak
     $ ./vpuppr.x86_64
 ```
 

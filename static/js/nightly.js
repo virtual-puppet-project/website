@@ -1,4 +1,4 @@
-/*A small script to retrieve the latest release
+/*WIP - A small script to retrieve the latest release
 for VPupPr-Nightly-Releases, to create a rolling
 release hyperlink*/
 
