@@ -63,9 +63,10 @@ params:
     # title: Gallery
       images: 
         - "vpuppr_ducks_bg.png"
-        - "vpuppr_main_screen.png"
-        - "vpuppr_preset_menu.png"
-        - "vpuppr_model_menu.png"
-        - "vpuppr_bone_menu.png"
-        - "vpuppr_tracking_menu.png"
-        - "vpuppr_blendshapes_menu.png"
+        - "alicia_main_screen.png"
+        - "alicia_preset_menu.png"
+        - "alicia_model_menu.png"
+        - "alicia_bone_menu.png"
+        - "alicia_tracking_menu.png"
+        - "alicia_blendshape_menu.png"
+        - "alicia_loading_screen.png"
