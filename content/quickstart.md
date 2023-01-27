@@ -24,13 +24,9 @@ tocopen: true
 
 ### Flatpak
 
-#### OpenSeeFace-GD (Deprecated, Do Not Use)
+#### vpuppr 0.9.0 stable
 
-Terminal:
-
-```Bash
-    $ flatpak install flathub com.github.virtual_puppet_project.vpuppr
-```
+Release Delayed
 
 #### vpuppr (Alpha 2)
 

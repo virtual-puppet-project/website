@@ -44,8 +44,3 @@ Simply put, it's a very niche use-case and is less preferable to real face track
 
 Currently vpuppr runs on Godot 3.x with plans to port over to 4.x once Godot 4 becomes more stable.
 
-## Why is Flatpak labelled as deprecated?
-
-The flatpak stable uses the code for a very early iteration of the program called OpenSeeFace-GD. A nod to the tracking software used in it.
-However, as development of vpuppr continues, this version is now considered abandonware as users struggle to get it up and running. Should you
-choose to run the flatpak, please download from the beta channel.
