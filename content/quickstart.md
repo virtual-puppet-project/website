@@ -15,7 +15,7 @@ tocopen: true
 
 ## Windows
 
-1. Download the [application](https://github.com/virtual-puppet-project/vpuppr/releases/download/0.9.0-alpha-2/vpuppr_0.9.0-alpha-2_windows.zip)
+1. Download the [application](https://github.com/virtual-puppet-project/vpuppr/releases/download/0.9.0/vpuppr_0.9.0_windows.zip)
 2. Unzip files into a directory (do not move files!)
 3. Run the `.exe` on Windows
 4. Start the facetracker from within the app
@@ -49,7 +49,7 @@ Distribution specific packages are built and maintained by the community :)
 
 ### Binary
 
-Download the [application](https://github.com/virtual-puppet-project/vpuppr/releases/download/0.9.0-alpha-2/vpuppr_0.9.0-alpha-2_linux.zip)
+Download the [application](https://github.com/virtual-puppet-project/vpuppr/releases/download/0.9.0/vpuppr_0.9.0_linux.zip)
 
 Terminal:
 
