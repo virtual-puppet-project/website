@@ -60,6 +60,13 @@ params:
       - name: Download
         url: downloads/
     slideshow:
-      images:
-        - "vpuppr_icon_256.png"
+    # title: Gallery
+      images: 
+        - "alicia_loading_screen.png"
         - "vpuppr_ducks_bg.png"
+        - "alicia_main_screen.png"
+        - "alicia_model_menu.png"
+        - "alicia_tracking_menu.png"
+        - "alicia_bone_menu.png"
+        - "alicia_blendshape_menu.png"
+        - "alicia_preset_menu.png"

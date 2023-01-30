@@ -15,7 +15,7 @@ tocopen: true
 
 ## Windows
 
-1. Download the [application](https://github.com/virtual-puppet-project/vpuppr/releases/download/0.9.0-alpha-2/vpuppr_0.9.0-alpha-2_windows.zip)
+1. Download the [application](https://github.com/virtual-puppet-project/vpuppr/releases/download/0.9.0/vpuppr_0.9.0_windows.zip)
 2. Unzip files into a directory (do not move files!)
 3. Run the `.exe` on Windows
 4. Start the facetracker from within the app
@@ -24,13 +24,9 @@ tocopen: true
 
 ### Flatpak
 
-#### OpenSeeFace-GD (old)
+#### vpuppr 0.9.0 stable
 
-Terminal:
-
-```Bash
-    $ flatpak install flathub com.github.virtual_puppet_project.vpuppr
-```
+Release Delayed
 
 #### vpuppr (Alpha 2)
 
@@ -45,7 +41,7 @@ Maintainer: [Oro](https://github.com/orowith2os)
 
 ### Package manager
 
-#### OpenSeeFace-GD (old)
+#### OpenSeeFace-GD (Deprecated, Do Not Use)
 
 Installation for [Arch Linux](https://aur.archlinux.org/packages/puppeteer)
 
@@ -53,23 +49,23 @@ Distribution specific packages are built and maintained by the community :)
 
 ### Binary
 
-Download the [application](https://github.com/virtual-puppet-project/vpuppr/releases/download/0.9.0-alpha-2/vpuppr_0.9.0-alpha-2_linux.zip)
+Download the [application](https://github.com/virtual-puppet-project/vpuppr/releases/download/0.9.0/vpuppr_0.9.0_linux.zip)
 
 Terminal:
 
 ```Bash
     $ cd Downloads/
-    $ unzip vpuppr_0.9.0-alpha-2_linux.zip
-    $ cd vpuppr_0.9.0-alpha-2_linux/
+    $ unzip vpuppr_0.9.0_linux.zip
+    $ cd vpuppr_0.9.0_linux/flatpak
     $ chmod +x vpuppr.x86_64
-    $ cd resources/extensions/open_see_face/OpenSeeFaceFolder/OpenSeeFace/
+    $ cd resources/extensions/openseeface-tracker/OpenSeeFace/
     $ chmod +x facetracker
 ```
 
 To run:
 
 ```Bash
-    $ cd vpuppr_0.9.0-alpha-2_linux/
+    $ cd vpuppr_0.9.0_linux/flatpak
     $ ./vpuppr.x86_64
 ```
 
