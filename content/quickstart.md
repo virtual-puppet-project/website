@@ -26,16 +26,10 @@ tocopen: true
 
 #### vpuppr 0.9.0 stable
 
-Release Delayed
-
-#### vpuppr (Alpha 2)
-
-Terminal:
-
 ```Bash
-    $ flatpak remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
-    $ flatpak install flathub-beta com.github.virtual_puppet_project.vpuppr
+    $ flatpak install flathub pro.vpup.vpuppr
 ```
+
 
 Maintainer: [Oro](https://github.com/orowith2os)
 
